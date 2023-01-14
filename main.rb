@@ -18,6 +18,6 @@ class MyApp < Sinatra::Base
 
 	post '/' do
 		Ntfyable.post('', body: @request_payload.to_json)
-		''
+		'cool'
 	end
 end
