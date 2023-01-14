@@ -1,5 +1,3 @@
-require 'httparty'
-
 module Ntfyable
   include HTTParty
   debug_output $stdout
